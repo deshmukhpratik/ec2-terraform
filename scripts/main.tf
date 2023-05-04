@@ -6,6 +6,9 @@ we use lifecycle block to tell terraform to create the replacement resources fir
 4.Creating an EC2 instance, The instance type would be picked up from the variables block and we give some meaningful tags for management and future identification.
 5.Once the EC2 instance created, we would get the public IP of the instance. We are saving it as an output variable. 
 The output variables would be saved locally and can be viewed anytime in the future with terraform output command
+---  terrrafrom init
+     terrafrom plan  - it would present some detailed info on what changes are going to be made into your AWS infra.
+     terrafrom apply 
 
 
 
